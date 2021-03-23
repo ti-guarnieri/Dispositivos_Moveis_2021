@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Dispositivos Moveis 2021</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="selecione_seu_console">Selecione Seu Console</string>
+    <string name="xbox">Xbox</string>
+    <string name="nintendo">Nintendo</string>
+    <string name="playstation">PlayStation</string>
+    <string name="e_mail">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="n_o_sou_um_rob">Não sou um robô</string>
+    <string name="tela_login">Login</string>
+    <string name="esqueci_a_senha">Esqueci a senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="n_o_tenho_cadastro">Não tenho cadastro</string>
+    <string name="ol_mundo">Olá Mundo</string>
+    <string name="login">Login</string>
+</resources>

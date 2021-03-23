@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Dispositivos Moveis 2021"
