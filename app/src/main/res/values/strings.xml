@@ -22,4 +22,5 @@
     <string name="n_o_tenho_cadastro">Não tenho cadastro</string>
     <string name="ol_mundo">Olá Mundo</string>
     <string name="login">Login</string>
+    <string name="title_activity_login_teste">LoginActivityTeste</string>
 </resources>

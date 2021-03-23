@@ -11,7 +11,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ola Professor, apenas tentando"
+        android:text="Olá Professor, apenas testando"
         android:textAlignment="center"
         android:textColor="@android:color/holo_blue_bright"
         android:textSize="50dp"
