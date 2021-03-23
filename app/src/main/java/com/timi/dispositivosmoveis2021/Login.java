@@ -25,25 +25,21 @@ public class Login extends AppCompatActivity {
         valida_user();
     }
 
-    public void valida_user (){
+    private void validaUser (){
         String user = edUser.getText().toString();
         String senha = edSenha.getText().toString();
 
-        if (user == null){
+       if (user.equals(senha)){
+           Intent conteudo = new Intent( this, Conteudo.class);
+           startActivity(conteudo);
+
+        } else if (user != senha){
+           edSenha.requestFocus();
             AlertDialog.Builder dlg = new AlertDialog.Builder(this);
-            dlg.setTitle("Aviso");
-            dlg.setMessage("Usuario deve ser preenchido!");
+           dlg.setTitle("Aviso");
+           dlg.setMessage("Usuario e senha devem ser iguais!");
             dlg.setNeutralButton("OK",null);
             dlg.show();
-        } else if (senha == null){
-            AlertDialog.Builder dlg = new AlertDialog.Builder(this);
-            dlg.setTitle("Aviso");
-            dlg.setMessage("Senha deve ser preenchida!");
-            dlg.setNeutralButton("OK",null);
-            dlg.show();
-        } else if (user == senha){
-            Intent conteudo = new Intent( this, Conteudo.class);
-            startActivity(conteudo);
         }
     }
 }
