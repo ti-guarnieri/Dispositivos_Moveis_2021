@@ -9,8 +9,8 @@ import android.widget.EditText;
 
 public class Login extends AppCompatActivity {
 
-    private EditText edUser ;
-    private EditText edSenha;
+    private EditText edUser = null;
+    private EditText edSenha = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class Login extends AppCompatActivity {
         setTitle("Faça o Login");
         setContentView(R.layout.activity_login);
         edUser = (EditText) findViewById(R.id.activity_login_user);
-       edSenha = (EditText) findViewById(R.id.activity_login_senha);
+        edSenha = (EditText) findViewById(R.id.activity_login_senha);
     }
 
     public void onClick1 (View view){
