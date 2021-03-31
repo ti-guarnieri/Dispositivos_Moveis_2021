@@ -1,11 +1,14 @@
 package com.timi.dispositivosmoveis2021;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.timi.dispositivosmoveis2021.ui.PhotoActivity;
 
 public class Login extends AppCompatActivity {
 
@@ -30,7 +33,7 @@ public class Login extends AppCompatActivity {
         String senha = edSenha.getText().toString();
 
        if (user.equals(senha)){
-           Intent conteudo = new Intent( this, Conteudo.class);
+           Intent conteudo = new Intent( this, PhotoActivity.class);
            startActivity(conteudo);
 
         } else if (user != senha){

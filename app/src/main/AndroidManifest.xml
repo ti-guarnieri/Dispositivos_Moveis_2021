@@ -11,9 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DispositivosMoveis2021">
-        <activity android:name=".ui.DetalheActivity"></activity>
+        <activity android:name=".detalhe.DetalheTodoActivity"></activity>
+        <activity android:name=".detalhe.DetalhePostsActivity" />
+        <activity android:name=".detalhe.DetalheCommentsActivity" />
+        <activity android:name=".ui.CommentsActivity" />
+        <activity android:name=".ui.TodoActivity" />
+        <activity android:name=".ui.PostsActivity" />
+        <activity android:name=".ui.DetalhePhotoActivity" />
         <activity android:name=".model.activity_photos" />
-        <activity android:name=".Conteudo" />
+        <activity android:name=".ui.PhotoActivity" />
         <activity android:name=".Login" />
         <activity android:name=".MainActivity">
             <intent-filter>

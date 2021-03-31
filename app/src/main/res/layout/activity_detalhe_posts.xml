@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.DetalheActivity">
+    tools:context=".detalhe.DetalhePostsActivity">
 
     <TextView
-        android:id="@+id/tvTitle"
+        android:id="@+id/postsTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
@@ -17,25 +16,19 @@
         android:textStyle="bold|italic" />
 
     <TextView
-        android:id="@+id/tvId1"
+        android:id="@+id/postsUserId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView" />
 
     <TextView
-        android:id="@+id/tvId2"
+        android:id="@+id/postsId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView" />
 
     <TextView
-        android:id="@+id/url"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/thumbUrl"
+        android:id="@+id/postsBody"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView" />
